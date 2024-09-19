@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var heading1=document.createElement("h1");
+        heading1.innerText="YAKASIRI VENKATESH";
+        heading1.style.fontFamily="sans-serif";
+        document.body.appendChild(heading1);
+        
+        
+        var heading2=document.createElement("h3");
+        heading2.innerText="Profile:"
+        heading2.style.fontFamily="sans-serif";
+        document.body.appendChild(heading2);
+        
+        var profile=document.createElement("p");
+        profile.innerText="To build a good career in a growing organization where I can prove myself with the strong opponents with my current skill pack. Currently, interested in working as an intern."
+        profile.style.fontSize="15px";
+        document.body.appendChild(profile);
+        
+        var education=document.createElement("h3");
+        education.innerText="Eucation";
+        education.style.fontFamily="sans-serif";
+        document.body.appendChild(education);
+        
+        var degree=document.createElement("b");
+        degree.innerText="Bachelor of computer application";
+        degree.style.fontSize="14px";
+        document.body.appendChild(degree);
+        
+        var degree1=document.createElement("p");
+        degree1.innerText="RAO's Degree college";
+        degree1.style.fontStyle="italic";
+        degree1.style.fontSize="14px";
+        document.body.appendChild(degree1);
+        
+        var inter=document.createElement("b");
+        inter.innerText="Intermediate";
+        inter.style.fontSize="14px";
+        document.body.appendChild(inter);
+        
+        var inter1=document.createElement("p");
+        inter1.innerText="TNC govt junior college ";
+        inter1.style.fontStyle="italic";
+        inter1.style.fontSize="14px";
+        document.body.appendChild(inter1);
+        
+        var ssc=document.createElement("b");
+        ssc.innerText="School of Secondary Education";
+        ssc.style.fontSize="14px";
+        document.body.appendChild(ssc);
+        
+        var ssc1=document.createElement("p");
+        ssc1.innerText="J.B.R high school";
+        ssc1.style.fontStyle="italic";
+        ssc1.style.fontSize="14px";
+        document.body.appendChild(ssc1);
+        
+        var skills=document.createElement("h3");
+        skills.innerText="Soft Skills";
+        skills.style.fontFamily="sans-serif";
+        document.body.appendChild(skills);
+        
+        var s2=document.createElement("pre");
+        s2.textContent=`
+        .Adaptability
+        .Human Relation Maintenance
+        .Initiative`;
+        s2.style.fontSize="14px";
+        document.body.appendChild(s2);
+        
+        var skill=document.createElement("h3");
+        skill.textContent="Technical Skills";
+        skill.style.fontFamily="sans-serif";
+        document.body.appendChild(skill);
+        
+        var s2=document.createElement("pre");
+        s2.textContent=`
+        .HTML
+        .CSS
+        .JavaScript`;
+        s2.style.fontSize="14px";
+        document.body.appendChild(s2);
+        
+        var end=document.createElement("h3");
+        end.textContent="Declaration";
+        end.style.fontFamily="sans-serif";
+        document.body.appendChild(end);
+        
+        var en=document.createElement("p")
+        en.innerText="I hereby declare that above mentioned information and particulars are true and correct to the best of my knowledge."
+        en.style.fontSize="15px";
+        document.body.appendChild(en);
+        
+        function myFunction() {
+            document.body.style.backgroundColor = "yellow";
+        }
+        
+        </script>
+<button type="button" onclick="myFunction()">Set background color</button>
+</body>
+</html>
